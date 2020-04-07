@@ -1,0 +1,32 @@
+{
+	"name": "pikaron/browserbackbutton",
+	"type": "phpbb-extension",
+	"description": "This extension disables the function of the browser's back button.",
+	"homepage": "https://github.com/picaronin/Stop-Browser-Back-Button",
+	"version": "1.0.0",
+	"time": "2020-04-03",
+	"keywords": ["phpbb", "extension", "Browser", "Back", "Button"],
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Picaron",
+			"homepage": "https://github.com/picaronin",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"phpbb/phpbb": ">=3.2.4"
+	},
+	"extra": {
+		"display-name": "Stop Browser Back Button",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.4"
+		},
+		"version-check": {
+			"host": "www.siteproall.com",
+			"directory": "/pikaron/browserbackbutton",
+			"filename": "browserbackbutton_version"
+		}
+	}
+}
