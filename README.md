@@ -5,6 +5,7 @@ This extension disables the function of the browser's back button.
 ## Requirements
 * phpBB >= 3.2.4
 * PHP >= 5.6.0
+* Note: The extension is incompatible with any code or extension that uses AJAX for page reload.
 
 ## Install
 1. Download the latest release.
